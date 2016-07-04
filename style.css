@@ -177,8 +177,7 @@ iframe {
   width: 15.5em;
   margin: 0.5em 0;
   padding: 0.2em 0.5em;
-  background-color:  rgba(199,255,206, 0.2);
-  border: 2px solid rgba(199,255,206, 0.9);
+  background-color: rgb(26, 138, 40);
   border-radius: 0.5em;
 }
 .parent .block.parent {
@@ -192,12 +191,11 @@ iframe {
   border-radius: 0.8em;
 }
 .neutral {
-  background-color: rgba(232,232,232, 0.2);
+  background-color: rgba(255,255,255, 0.4);
   border-color: rgba(232,232,232, 0.7);
 }
 .no {
-  background-color: rgba(255,198,177, 0.2);
-  border-color: rgba(255,198,177, 0.9);
+  background-color: rgb(122, 41, 12);
 }
 .block h3, .block p {
   /*max-width: 16em;*/
@@ -259,6 +257,13 @@ iframe {
 }
 .compact .block h3 {
   margin: 0;
+}
+
+.compact.centered {
+  justify-content: center;
+}
+.compact.centered  .column {
+  margin: 0 2em;
 }
 
 /* FLICKITY */
